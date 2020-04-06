@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtview1"
+        android:layout_alignParentEnd="true"
+        android:text="Hello"
+        android:textSize="24sp"
+        android:background="#EF0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtview2"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:text="김지훈"
+        android:background="#2196F3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtview3"
+        android:textSize="24sp"
+        android:text="wahwah"
+        android:background="#8BC34A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_toLeftOf="@+id/txtview1"
+        android:layout_below="@id/txtview1"
+        android:textSize="24sp"
+        android:text="왼쪽연습"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtview5"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:text="wahwah"
+        android:background="#673AB7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
