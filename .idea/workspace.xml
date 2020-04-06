@@ -7,9 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3714b0e9-9945-4204-8525-e8a7a317854c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_coffee.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/study/survivalcoding/OrderCheckActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_order_check.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/study/survivalcoding/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/study/survivalcoding/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_coffee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_coffee.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,10 +46,14 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../#119.CoffeeAppCoding2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/values" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.study.survivalcoding" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\STUDY\OJSSurvivalCoding\SurvivalCoding\app\src\main\res\values" />
       <recent name="D:\STUDY\OJSSurvivalCoding\SurvivalCoding\app\src\main\res\layout" />
       <recent name="D:\STUDY\OJSSurvivalCoding\SurvivalCoding\app\src\main\res\drawable" />
     </key>
@@ -144,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586191746679</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="#119.CoffeeApp Coding">
+      <created>1586192393266</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586192393266</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Layout Basic" />
     <MESSAGE value="#117.Relative Layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="#117.Relative Layout" />
+    <MESSAGE value="#119.CoffeeApp Coding" />
+    <option name="LAST_COMMIT_MESSAGE" value="#119.CoffeeApp Coding" />
   </component>
 </project>
