@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ImplicitActivity"
+    tools:showIn="@layout/activity_implicit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edittext_phone"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:hint="전화번호"
+            android:inputType="phone"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_phone"
+            android:text="전화걸기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edittext_url"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:hint="사이트 주소"
+            android:inputType="textUri"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_url"
+            android:text="연결"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
